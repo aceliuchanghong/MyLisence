@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e4bc2a-9cb9-4bbc-9c50-b4554b2722cc" name="Changes" comment="报错加密完成">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siscon/config/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siscon/generate/KeyTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siscon/generate/LicenseTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siscon/generate/SignTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siscon/test/licenseToolsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/privateKey.keystore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/publicCer.cer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/publicKey.keystore" afterDir="false" />
+    <list default="true" id="50e4bc2a-9cb9-4bbc-9c50-b4554b2722cc" name="Changes" comment="SUC一下">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/config/KeyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/config/KeyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/test/ErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/test/errorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/test/errorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/test/errorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +61,7 @@
       <recent name="D:\aproject\others\MyLisence" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.licenseToolsTest">
+  <component name="RunManager" selected="Application.errorTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.siscon.Main" />
       <module name="MyLisence" />
@@ -127,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.licenseToolsTest" />
         <item itemvalue="Application.errorTest" />
+        <item itemvalue="Application.licenseToolsTest" />
         <item itemvalue="Application.pathTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -143,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697098519999</updated>
       <workItem from="1697098521112" duration="117000" />
-      <workItem from="1697098692174" duration="9147000" />
+      <workItem from="1697098692174" duration="11903000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1697098829263</created>
@@ -166,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697103355280</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SUC一下">
+      <created>1697111366307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697111366307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +183,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初始化" />
     <MESSAGE value="报错加密完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="报错加密完成" />
+    <MESSAGE value="SUC一下" />
+    <option name="LAST_COMMIT_MESSAGE" value="SUC一下" />
   </component>
 </project>
