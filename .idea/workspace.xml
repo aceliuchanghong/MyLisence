@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e4bc2a-9cb9-4bbc-9c50-b4554b2722cc" name="Changes" comment="验证签名完成.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="50e4bc2a-9cb9-4bbc-9c50-b4554b2722cc" name="Changes" comment="suc一下">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/test/msgDealerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/test/msgDealerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/config/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/config/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/config/KeyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/config/KeyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/encode/MsgDealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/encode/MsgDealer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/AuthTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/AuthTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/KeyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/KeyTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/LicenseTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/LicenseTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/SignTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/SignTools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/VerifyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/VerifyTools.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,24 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/aproject/others/MyLisence&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/aproject/others/MyLisence",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\aproject\others\MyLisence" />
@@ -151,7 +156,10 @@
       <updated>1697098519999</updated>
       <workItem from="1697098521112" duration="117000" />
       <workItem from="1697098692174" duration="11951000" />
-      <workItem from="1697419332892" duration="12381000" />
+      <workItem from="1697419332892" duration="13210000" />
+      <workItem from="1697446258444" duration="36000" />
+      <workItem from="1697447102511" duration="84000" />
+      <workItem from="1697447225993" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1697098829263</created>
@@ -209,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697443024098</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="suc一下">
+      <created>1697443705702</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697443705702</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +250,7 @@
     <MESSAGE value="License生成完成" />
     <MESSAGE value="验证签名完成" />
     <MESSAGE value="验证签名完成." />
-    <option name="LAST_COMMIT_MESSAGE" value="验证签名完成." />
+    <MESSAGE value="suc一下" />
+    <option name="LAST_COMMIT_MESSAGE" value="suc一下" />
   </component>
 </project>
