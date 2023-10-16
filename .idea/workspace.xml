@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e4bc2a-9cb9-4bbc-9c50-b4554b2722cc" name="Changes" comment="License生成完成">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siscon/test/verifyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/VerifyTools.java" afterDir="false" />
+    <list default="true" id="50e4bc2a-9cb9-4bbc-9c50-b4554b2722cc" name="Changes" comment="验证签名完成.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/config/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/config/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/config/KeyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/config/KeyConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/encode/MsgDealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/encode/MsgDealer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/test/authToolsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/test/authToolsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/AuthTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/AuthTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/KeyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/KeyTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/test/msgDealerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/test/msgDealerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/LicenseTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/LicenseTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/SignTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/SignTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MyAuth.auth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/VerifyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/VerifyTools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/MyLicense.license" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MyLicense.license" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,8 +134,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.verifyTest" />
-        <item itemvalue="Application.authToolsTest" />
         <item itemvalue="Application.licenseTest" />
+        <item itemvalue="Application.authToolsTest" />
         <item itemvalue="Application.msgDealerTest" />
         <item itemvalue="Application.infoTest" />
       </list>
@@ -159,7 +151,7 @@
       <updated>1697098519999</updated>
       <workItem from="1697098521112" duration="117000" />
       <workItem from="1697098692174" duration="11951000" />
-      <workItem from="1697419332892" duration="11209000" />
+      <workItem from="1697419332892" duration="11694000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1697098829263</created>
@@ -203,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697429167770</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="验证签名完成">
+      <created>1697442569328</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697442569328</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +226,8 @@
     <MESSAGE value="SUC一下" />
     <MESSAGE value="newest" />
     <MESSAGE value="License生成完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="License生成完成" />
+    <MESSAGE value="验证签名完成" />
+    <MESSAGE value="验证签名完成." />
+    <option name="LAST_COMMIT_MESSAGE" value="验证签名完成." />
   </component>
 </project>

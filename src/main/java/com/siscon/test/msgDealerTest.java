@@ -9,9 +9,9 @@ import com.siscon.encode.MsgDealer;
 public class msgDealerTest {
     public static void main(String[] args) {
 
-        System.out.println(new MsgDealer().generateMsg("Hello sisconsavior,nice to meet you!\n55"));
+        System.out.println(new MsgDealer().encodeMsg("Hello sisconsavior,nice to meet you!\n55"));
 
-        String error = new MsgDealer().generateMsg("org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.spark.admindemo.mapper.RoleMapper.selectRoleByUser\n" +
+        String error = new MsgDealer().encodeMsg("org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.spark.admindemo.mapper.RoleMapper.selectRoleByUser\n" +
                 "\tat org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235) ~[mybatis-3.5.1.jar:3.5.1]\n" +
                 "\tat com.baomidou.mybatisplus.core.override.MybatisMapperMethod.<init>(MybatisMapperMethod.java:49) ~[mybatis-plus-core-3.1.2.jar:3.1.2]\n" +
                 "\tat com.baomidou.mybatisplus.core.override.MybatisMapperProxy.lambda$cachedMapperMethod$0(MybatisMapperProxy.java:66) ~[mybatis-plus-core-3.1.2.jar:3.1.2]\n" +

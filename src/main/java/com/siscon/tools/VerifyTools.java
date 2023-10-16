@@ -4,6 +4,7 @@ import cn.hutool.core.io.file.FileReader;
 import cn.hutool.json.JSONUtil;
 import com.siscon.config.Info;
 import com.siscon.config.KeyConfig;
+import com.siscon.encode.MsgDealer;
 
 import java.security.PublicKey;
 import java.security.Signature;
@@ -30,13 +31,12 @@ public class VerifyTools
 
     /**
      * 校验示例
-     * @throws Exception
      */
     public void verifyLicense() throws Exception {
         // 拿到license内容
         FileReader fileReader = new FileReader(new KeyConfig().LICENSE_PATH);
         String license = fileReader.readString();
-        Info info = JSONUtil.toBean(license, Info.class);
+        Info info = JSONUtil.toBean(new MsgDealer().solveMsg(license), Info.class);
 
         //获取签名
         String signature = info.getSignature();
