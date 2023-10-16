@@ -4,16 +4,22 @@ import com.siscon.config.KeyConfig;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.security.KeyStore;
 import java.security.PrivateKey;
+import java.security.PublicKey;
+import java.security.cert.Certificate;
+import java.security.cert.CertificateException;
+import java.security.cert.CertificateFactory;
 
+/**
+ * 获取私钥和公钥
+ */
 public class KeyTools
 {
     /**
      * 通过keystore获取private key
-     * 获取私钥工具类
-     *
      */
     public static PrivateKey getPrivateKey() {
 
@@ -37,6 +43,33 @@ public class KeyTools
         }
 
         return privateKey;
+    }
+
+
+    /**
+     * 通过 cer证书获取公钥
+     */
+    public static PublicKey getPublicKeyFromCer(){
+        PublicKey publicKey = null;
+        FileInputStream in = null;
+        try {
+            CertificateFactory cf = CertificateFactory.getInstance("X.509");
+            in = new FileInputStream(KeyConfig.CER_FILE_PATH);
+            Certificate c = cf.generateCertificate(in);
+            publicKey = c.getPublicKey();
+
+        } catch (CertificateException | FileNotFoundException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (in != null) {
+                    in.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return publicKey;
     }
 
 }

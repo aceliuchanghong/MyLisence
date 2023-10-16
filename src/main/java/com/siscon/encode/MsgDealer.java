@@ -4,7 +4,7 @@ import cn.hutool.crypto.SecureUtil;
 import cn.hutool.crypto.symmetric.AES;
 
 /**
- * Created by IntelliJ IDEA.
+ * 为了实现报错消息混淆
  * 1.输入报错信息msg,转化为对应的加密后的错误信息
  * 2.输入加密后的错误信息,转化为对应的解密后的错误信息msg
  * https://blog.csdn.net/qq_22076345/article/details/108632057

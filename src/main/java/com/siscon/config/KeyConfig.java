@@ -1,5 +1,8 @@
 package com.siscon.config;
 
+/**
+ * 配置路径
+ */
 public class KeyConfig {
 
     //当前项目绝对路径
@@ -22,7 +25,7 @@ public class KeyConfig {
     public static final String KEY_PASSWORD = "3141592653";
 
     //Auth路径
-    public static final String AUTH_PATH = BASE_FILE_PATH + "/MyAuth.auth";
+    public static final String AUTH_PATH = BASE_FILE_PATH + "/MyAuth.xml";
     //licesen路径
     public static final String LICENSE_PATH = BASE_FILE_PATH + "/MyLicense.license";
     //error示范路径

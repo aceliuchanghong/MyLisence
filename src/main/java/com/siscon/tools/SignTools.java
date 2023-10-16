@@ -4,6 +4,9 @@ import java.security.PrivateKey;
 import java.security.Signature;
 import java.util.Base64;
 
+/**
+ * 签名方法
+ */
 public class SignTools
 {
     //非对称密钥算法
