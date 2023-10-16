@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50e4bc2a-9cb9-4bbc-9c50-b4554b2722cc" name="Changes" comment="验证签名完成.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/encode/MsgDealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/encode/MsgDealer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/test/msgDealerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/test/msgDealerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/LicenseTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/LicenseTools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/VerifyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/VerifyTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MyLicense.license" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MyLicense.license" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +65,13 @@
       <recent name="D:\aproject\others\MyLisence" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.verifyTest">
-    <configuration name="authToolsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siscon.test.authToolsTest" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siscon.Main" />
       <module name="MyLisence" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.siscon.test.*" />
+          <option name="PATTERN" value="com.siscon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="infoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siscon.test.infoTest" />
+    <configuration name="authToolsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siscon.test.authToolsTest" />
       <module name="MyLisence" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.msgDealerTest" />
         <item itemvalue="Application.verifyTest" />
         <item itemvalue="Application.licenseTest" />
         <item itemvalue="Application.authToolsTest" />
-        <item itemvalue="Application.msgDealerTest" />
-        <item itemvalue="Application.infoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,7 @@
       <updated>1697098519999</updated>
       <workItem from="1697098521112" duration="117000" />
       <workItem from="1697098692174" duration="11951000" />
-      <workItem from="1697419332892" duration="11694000" />
+      <workItem from="1697419332892" duration="12381000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1697098829263</created>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697442569328</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="验证签名完成.">
+      <created>1697443024098</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697443024098</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

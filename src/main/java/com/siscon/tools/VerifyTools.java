@@ -32,19 +32,19 @@ public class VerifyTools
     /**
      * 校验示例
      */
-    public void verifyLicense() throws Exception {
+    public boolean verifyLicense() throws Exception {
         // 拿到license内容
         FileReader fileReader = new FileReader(new KeyConfig().LICENSE_PATH);
         String license = fileReader.readString();
         Info info = JSONUtil.toBean(new MsgDealer().solveMsg(license), Info.class);
-
         //获取签名
         String signature = info.getSignature();
         //获取授权内容
         String authContent = info.mostToString();
         //校验
         boolean verify = VerifyTools.verifySign(authContent.getBytes(), signature.getBytes(), KeyTools.getPublicKeyFromCer());
-        System.out.println(">>>>>>>>>>>>>>>>>>公钥验签结果 :" + verify);
+        // System.out.println(">>>>>>>>>>>>>>>>>>公钥验签结果 :" + verify);
+        return verify;
     }
 
 }
