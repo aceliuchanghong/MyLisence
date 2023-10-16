@@ -1,4 +1,4 @@
-package com.siscon.error;
+package com.siscon.encode;
 
 import cn.hutool.crypto.SecureUtil;
 import cn.hutool.crypto.symmetric.AES;
@@ -10,7 +10,7 @@ import cn.hutool.crypto.symmetric.AES;
  * https://blog.csdn.net/qq_22076345/article/details/108632057
  * https://juejin.cn/post/7028204583264632840
  */
-public class ErrorG {
+public class MsgDealer {
 
     /* 随机生成密钥
     byte[] key = SecureUtil.generateKey(SymmetricAlgorithm.AES.getValue()).getEncoded();*/

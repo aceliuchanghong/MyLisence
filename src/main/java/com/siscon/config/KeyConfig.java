@@ -21,8 +21,11 @@ public class KeyConfig {
     //获取私钥所需密码
     public static final String KEY_PASSWORD = "3141592653";
 
-
+    //Auth路径
+    public static final String AUTH_PATH = BASE_FILE_PATH + "/MyAuth.auth";
     //licesen路径
     public static final String LICENSE_PATH = BASE_FILE_PATH + "/MyLicense.license";
+    //error示范路径
+    public static final String ERROR_PATH = BASE_FILE_PATH + "/MyError.error";
 }
 

@@ -1,4 +1,4 @@
-package com.siscon.generate;
+package com.siscon.tools;
 
 import com.siscon.config.KeyConfig;
 
@@ -12,6 +12,7 @@ public class KeyTools
 {
     /**
      * 通过keystore获取private key
+     * 获取私钥工具类
      *
      */
     public static PrivateKey getPrivateKey() {
