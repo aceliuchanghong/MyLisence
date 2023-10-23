@@ -1,18 +1,12 @@
-package com.siscon;
+package com.siscon.test;
 
 import cn.hutool.core.io.file.FileReader;
 import com.siscon.config.KeyConfig;
 import com.siscon.encode.MsgDealer;
-import com.siscon.tools.LicenseTools;
 import com.siscon.tools.VerifyTools;
 
 public class Main {
   public static void main(String[] args) {
-    try {
-      new LicenseTools().generateLicense();
-    } catch (Exception e) {
-      throw new RuntimeException(e);
-    }
     try {
       if (new VerifyTools().verifyLicense()) {
         System.out.println(
