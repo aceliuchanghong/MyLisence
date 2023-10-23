@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50e4bc2a-9cb9-4bbc-9c50-b4554b2722cc" name="Changes" comment="suc一下">
+    <list default="true" id="50e4bc2a-9cb9-4bbc-9c50-b4554b2722cc" name="Changes" comment="格式化代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/config/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/config/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/config/KeyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/config/KeyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/encode/MsgDealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/encode/MsgDealer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/AuthTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/AuthTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/KeyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/KeyTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/LicenseTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/LicenseTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/SignTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/SignTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/siscon/tools/VerifyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siscon/tools/VerifyTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/aproject/others/MyLisence",
+    "last_opened_file_path": "D:/aproject/others/site",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -159,7 +151,9 @@
       <workItem from="1697419332892" duration="13210000" />
       <workItem from="1697446258444" duration="36000" />
       <workItem from="1697447102511" duration="84000" />
-      <workItem from="1697447225993" duration="687000" />
+      <workItem from="1697447225993" duration="748000" />
+      <workItem from="1697618749504" duration="1611000" />
+      <workItem from="1697677579297" duration="4091000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1697098829263</created>
@@ -224,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697443705702</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="格式化代码">
+      <created>1697447962309</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697447962309</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +252,7 @@
     <MESSAGE value="验证签名完成" />
     <MESSAGE value="验证签名完成." />
     <MESSAGE value="suc一下" />
-    <option name="LAST_COMMIT_MESSAGE" value="suc一下" />
+    <MESSAGE value="格式化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="格式化代码" />
   </component>
 </project>
